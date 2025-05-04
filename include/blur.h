@@ -2,6 +2,7 @@
 
 #include <vector>
 #include <cstdint>
+#include <thread>
 
 // Структура Color для хранения цвета пикселя в RGB
 struct Color {
@@ -13,5 +14,10 @@ struct Color {
 // Двумерный вектор пикселей Image для изображения
 using Image = std::vector<std::vector<Color>>;
 
-// Функция sequentialBlur для последовательного размытия 3x3
+
+// Функции для размытия
 Image sequentialBlur(const Image& input, int width, int height);
+
+Image parallellBlurThreads(const Image& input, int width, int height, int numThreads);
+
+Image parallelBlurOpenMP(const Image& input, int width, int height);
