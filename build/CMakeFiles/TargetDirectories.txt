@@ -1,0 +1,3 @@
+C:/Users/Алиса/source/repos/laba5-aliisakas/build/CMakeFiles/blur.dir
+C:/Users/Алиса/source/repos/laba5-aliisakas/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Алиса/source/repos/laba5-aliisakas/build/CMakeFiles/ZERO_CHECK.dir
